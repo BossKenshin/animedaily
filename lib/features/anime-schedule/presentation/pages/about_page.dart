@@ -16,7 +16,7 @@ class AboutPage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: const Text(
-          "DEVELOPER LOG",
+          "ABOUT",
           style: TextStyle(fontWeight: FontWeight.w900, letterSpacing: 2, fontSize: 16),
         ),
       ),
@@ -35,7 +35,7 @@ class AboutPage extends StatelessWidget {
             const SizedBox(height: 16),
             _buildInfoCard(
               title: "CONTACT",
-              value: "r.christianlawrece13@gmail.com",
+              value: "r.christianlawrence13@gmail.com",
               icon: Icons.alternate_email,
             ),
             const SizedBox(height: 16),
@@ -76,7 +76,7 @@ class AboutPage extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           const Text(
-            "APPLICATION DEVELOPER",
+            "DEVELOPER LOG",
             style: TextStyle(color: _secondary, fontSize: 12, fontWeight: FontWeight.bold, letterSpacing: 4),
           ),
         ],
